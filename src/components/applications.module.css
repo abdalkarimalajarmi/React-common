@@ -1,0 +1,129 @@
+.header {
+  padding: 4rem 10rem;
+  background-color: #0940a7;
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.body {
+  width: 70%;
+  margin: auto;
+  font-family: Poppins;
+}
+
+.jobs {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+
+.titlePage {
+  padding-top: 5rem;
+}
+
+h3 {
+  padding: 0;
+}
+
+.job {
+  display: flex;
+  width: 100%;
+  border: 1px solid rgba(9, 64, 167, 0.4);
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.info {
+  width: 50%;
+}
+
+.job div div {
+  display: flex;
+}
+
+.btn {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.btn .btnJob {
+  width: 35%;
+  color: white;
+  background-color: #0940a7;
+  border: 1px solid #0940a7;
+  border-radius: 10px;
+  padding: 0.6rem 0;
+  transition: all 0.3s;
+}
+
+.btn .btnJob:hover {
+  color: #0940a7;
+  background-color: white;
+  cursor: pointer;
+}
+
+.jobMenuIcon {
+  display: flex;
+  align-items: center;
+}
+
+.jobMenuIcon .icon:hover {
+  cursor: pointer;
+}
+
+.jobMenuIcon .jobMenu {
+  display: none;
+  width: 5rem;
+  height: 3rem;
+  background-color: lightgray;
+  position: absolute;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #1360ef;
+  transform: translate(-50%, -50%);
+}
+
+hr {
+  width: 100%;
+}
+
+.show {
+  display: block;
+}
+
+ul li a {
+  color: gray !important;
+}
+
+@media (max-width:978px) {
+  html {
+    font-size: 12px;
+  }
+
+  .job {
+    flex-wrap: wrap;
+  }
+
+  .btn .btnJob {
+    width: 65%;
+  }
+
+  .job div div {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:862px) {
+  html {
+    font-size: 10px;
+  }
+}

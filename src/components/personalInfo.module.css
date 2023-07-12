@@ -1,0 +1,32 @@
+.header {
+  padding: 4rem 10rem;
+  background-color: #0940a7;
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.body {
+  width: 60%;
+  margin: auto;
+  font-family: Poppins;
+}
+
+.form {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 7px;
+  background-color: #e8f0ff;
+}
+
+.input {
+  color: gray;
+}
+
+h3 {
+  padding-top: 3rem;
+}

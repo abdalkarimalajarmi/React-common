@@ -1,0 +1,115 @@
+.header {
+  padding: 4rem 10rem;
+  background-color: #0940a7;
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.body {
+  width: 50%;
+  margin: auto;
+  font-family: Poppins;
+}
+
+.jobs {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+
+.titlePage {
+  padding-top: 5rem;
+}
+
+h3 {
+  padding: 0;
+}
+
+.job {
+  display: flex;
+  width: 100%;
+  border: 1px solid rgba(9, 64, 167, 0.4);
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.info {
+  width: 60%;
+}
+
+.job div div {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+}
+
+.job div div label {
+  padding-left: 0.3rem;
+}
+
+.btn {
+  width: 30%;
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn input {
+  width: 5rem !important;
+  height: 2rem;
+}
+
+.btn .btnJob:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btnDelete {
+  color: red;
+}
+
+.btnDelete:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.jobMenuIcon {
+  display: flex;
+  align-items: center;
+}
+
+.jobMenuIcon .icon:hover {
+  cursor: pointer;
+}
+
+.jobMenuIcon .jobMenu {
+  display: none;
+  width: 5rem;
+  height: 3rem;
+  background-color: lightgray;
+  position: absolute;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #1360ef;
+  transform: translate(-50%, -50%);
+}
+
+hr {
+  width: 100%;
+}
+
+.show {
+  display: block;
+}
+
+ul li a {
+  color: gray !important;
+}

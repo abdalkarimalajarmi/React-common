@@ -1,0 +1,106 @@
+.wrapper {
+  padding: 2rem 10rem;
+}
+
+h2 {
+  font-family: Poppins;
+  font-weight: 600;
+  color: black;
+}
+
+.header {
+  padding: 4rem 10rem;
+  background-color: #0940a7;
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+}
+
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  font-family: Poppins;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.section {
+  padding: 2rem;
+  border: 1px solid #1360ef;
+  border-radius: 12px;
+  width: 30%;
+  height: 10rem;
+}
+
+.section:hover {
+  box-shadow: 0px 0px 20px 1px #1360ef;
+  transition: all 0.3s;
+}
+
+.icons {
+  margin-bottom: 1rem;
+}
+
+.section:hover {
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.title p {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.subTitle {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.icons {
+  color: #1360ef;
+}
+
+.ProfileAndSettings {
+  padding-top: 5rem;
+}
+
+@media (max-width:1185px) {
+  html {
+    font-size: 13px;
+  }
+
+  .sections {
+    flex-direction: column;
+  }
+
+  .section {
+    margin: auto;
+    width: 60%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .icons {
+    margin: 0;
+  }
+}
+
+@media (max-width:990px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:740px) {
+  html {
+    font-size: 7px;
+  }
+}
